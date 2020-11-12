@@ -1,0 +1,25 @@
+:root {
+    --black: #000;
+    --gray-dark: #242121;
+    --gray-light: #ebebeb;
+    --white: #fff;
+    --turquoise: #00a19a;
+    --yellow: #ffd93a;
+    --red: #d52640;
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      font-family: Arial;
+      color: var(--gray-dark);
+      line-height: 1.66;
+  }
