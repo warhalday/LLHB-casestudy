@@ -18,8 +18,42 @@ html {
     box-sizing: inherit;
   }
 
+/** Typography */
+
   body {
       font-family: Arial;
       color: var(--gray-dark);
       line-height: 1.66;
+  }
+
+
+h2 {
+    color: var(--turquoise);
+    text-shadow: 2px 2px var(--yellow);
+}
+
+h3 {
+    color: var(--red);
+    text-shadow: 2px 2px var(--yellow);
+    font-weight: 500;
+}
+
+  img {
+      display: block;
+      max-width: 100%;
+  }
+
+/** .component */
+
+  .component image {
+      max-width: initial;
+  }
+
+  .component__image {
+      border: 1px solid #ccc;
+      overflow-x: auto;
+  }
+
+  .component__code {
+    border: 1px solid #ccc;
   }
