@@ -110,7 +110,6 @@ ul {
 }
 
 
-
 .header__list a:hover {
 	background-size: 100% .1em;
 }
@@ -153,3 +152,35 @@ ul {
 .location__button a:hover {
     color: white;
 }
+
+/** MAIN NAV */
+
+.main__nav {
+    background-color: var(--yellow);
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1;
+    letter-spacing: 1px;
+    
+}
+
+.main__nav--title {
+    font-size: x-small;
+    color: var(--turquoise);
+}
+
+.main__nav a {
+    font-size: x-large;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.main__nav a:hover {
+    color: var(--red);
+}
+
+/** MAIN NAV LIST*/
+
