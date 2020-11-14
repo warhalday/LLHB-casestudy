@@ -12,9 +12,10 @@
 html {
     box-sizing: border-box;
   }
-  *, 
-  *:before, 
-  *:after {
+
+*, 
+*:before, 
+*:after {
     box-sizing: inherit;
   }
 
@@ -38,13 +39,36 @@ img {
 
 .component image {
     max-width: initial;
-}
+    }
 
- .component__image {
+.component__image {
     border: 1px solid #ccc;
     overflow-x: auto;
-}
+    }
 
 .component__code {
   border: 1px solid #ccc;
+    }
+
+.component__code h2 {
+    font-size: 35px;
+    line-height: .25;
+    color: var(--turquoise);
+    text-shadow: 1.5px 1.5px var(--yellow);
+    
+}
+
+.component__code h3 {
+    font-size: small;
+    line-height: .25;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: var(--red);
+    text-shadow: 1.5px 1.5px var(--yellow);
+}
+
+.component__code h4 {
+    font-size: x-small;
+    font-weight: 200;
+    color: var(--red);
 }
