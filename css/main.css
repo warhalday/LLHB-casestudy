@@ -72,3 +72,57 @@ img {
     font-weight: 200;
     color: var(--red);
 }
+
+/** Header */
+
+.header .component__code {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    color: var(--red);
+}
+
+.header__list {
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+
+.header__list  a {
+    font-size: x-small;
+    color: var(--red);
+    text-decoration: none; 
+    
+}
+
+/** Header Location Card*/
+
+.header__location--card {
+    font-size: x-small;
+    text-align: center;
+    line-height: .25;
+    background-color: #f3f0f0;
+
+}
+
+.location__button {
+    font-size: x-small;
+ 
+}
+
+.location__button a {
+    text-decoration: none;
+    color: var(--red);
+    background-color: var(--yellow);
+    border-radius: 3px;
+    padding: 3px 10px 3px 10px;
+}
