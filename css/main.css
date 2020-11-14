@@ -34,6 +34,21 @@ img {
     max-width: 100%;
   }
 
+.button {
+    font-size: x-small;
+    font-weight: 200;
+    color: var(--red);
+    border-top-style: solid;
+    border-top-color: var(--red);
+    border-bottom-style: solid;
+    border-bottom-color: var(--red);
+    box-sizing: content-box;  
+    width: 100px;
+    height: 10px;
+    padding: 10px;  
+  
+}
+
 /** .component */
 
 
@@ -68,8 +83,7 @@ img {
 }
 
 .component__code h4 {
-    font-size: x-small;
-    font-weight: 200;
+    font-size: large;
     color: var(--red);
 }
 
