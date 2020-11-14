@@ -94,15 +94,25 @@ ul {
 .header__list {
     display: inline-flex;
     flex-direction: row;
-    padding-right: 20px;
+    padding: 10px 10px 10px 10px;
+    
     
 }
 
 .header__list  a {
     font-size: x-small;
     color: var(--red);
-    text-decoration: none; 
+    text-decoration: none;
+    background: linear-gradient(var(--yellow), var(--yellow)) bottom / 0 .1em no-repeat;
+	transition: 1s background-size;
+    padding: 5px 5px 5px 5px;
     
+}
+
+
+
+.header__list a:hover {
+	background-size: 100% .1em;
 }
 
 /** Header Location Card*/
@@ -138,4 +148,8 @@ ul {
     background-color: var(--yellow);
     border-radius: 3px;
     padding: 3px 10px 3px 10px;
+}
+
+.location__button a:hover {
+    color: white;
 }
