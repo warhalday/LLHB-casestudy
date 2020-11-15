@@ -78,8 +78,10 @@ img {
     line-height: .25;
     font-weight: 600;
     letter-spacing: .5px;
+    text-align: center;
     color: var(--red);
     text-shadow: 1.5px 1.5px var(--yellow);
+    
 }
 
 .component__code h4 {
@@ -108,9 +110,7 @@ ul {
 .header__list {
     display: inline-flex;
     flex-direction: row;
-    padding: 10px 10px 10px 10px;
-    
-    
+    padding: 10px 10px 10px 10px;   
 }
 
 .header__list  a {
@@ -119,8 +119,7 @@ ul {
     text-decoration: none;
     background: linear-gradient(var(--yellow), var(--yellow)) bottom / 0 .1em no-repeat;
 	transition: 1s background-size;
-    padding: 5px 5px 5px 5px;
-    
+    padding: 5px 5px 5px 5px;  
 }
 
 
@@ -152,7 +151,6 @@ ul {
 .location__button {
     font-size: x-small;
     padding-top: 10px;
- 
 }
 
 .location__button a {
@@ -175,8 +173,7 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 1;
-    letter-spacing: 1px;
-    
+    letter-spacing: 1px;  
 }
 
 .main__nav--title {
@@ -188,13 +185,59 @@ ul {
     font-size: x-large;
     font-weight: 100;
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 .main__nav a:hover {
     color: var(--red);
 }
 
-/** MAIN NAV LIST*/
+/** MAIN CARD 1 */
 
+.main__card1 {
+    box-sizing: content-box;  
+    width: 600px;
+}
+
+.ourfood__imagecard {
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+
+.mixplate__imagecard {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.info__card {
+    text-align: center;
+    margin-right: 0;
+}
+
+.info__card .our {
+    width: 150px;
+    padding: 10px 30px 10px 30px;
+    margin: 0;
+}
+
+
+.info__card .title {
+    color: var(--red);
+    font-size: x-large;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.info__card .offering {
+    color: var(--turquoise);
+    font-size: large;
+    margin: 0;
+    padding: 0px;
+}
+
+.info__card p {
+    margin: 0;
+    padding-bottom: 10px;
+}
