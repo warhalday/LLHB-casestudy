@@ -19,7 +19,7 @@ html {
     box-sizing: inherit;
   }
 
-/** Typography */
+/** Typography */  /** Typography */  /** Typography */  /** Typography */
 
 body {
     font-family: Arial;
@@ -50,7 +50,7 @@ img {
   
 }
 
-/** .component */
+/** .component */  /** .component */  /** .component */  /** .component */
 
 
 .component image {
@@ -90,7 +90,7 @@ img {
     color: var(--red);
 }
 
-/** Header */
+/** Header */  /** Header */  /** Header */   /** Header */  
 
 .header .component__code {
     display: inline-flex;
@@ -128,7 +128,7 @@ ul {
 	background-size: 100% .1em;
 }
 
-/** Header Location Card*/
+/** Header Location Card*/  /** Header Location Card*/  /** Header Location Card*/
 
 .header__location--card {
     font-size: x-small;
@@ -166,7 +166,7 @@ ul {
     color: white;
 }
 
-/** MAIN NAV */
+/** MAIN NAV */ /** MAIN NAV */  /** MAIN NAV */  /** MAIN NAV */
 
 .main__nav {
     background-color: var(--yellow);
@@ -193,7 +193,7 @@ ul {
     color: var(--red);
 }
 
-/** MAIN CARD 1 */
+/** MAIN CARD 1 */  /** MAIN CARD 1 */  /** MAIN CARD 1 */  /** MAIN CARD 1 */
 
 .main__card1 {
     box-sizing: content-box;  
@@ -260,4 +260,24 @@ ul {
     padding: 10px 30px 10px 30px;
     margin: 0;
     
+}
+
+/** MAIN CARD 2 */  /** MAIN CARD 2 */  /** MAIN CARD 2 */  /** MAIN CARD 2 */
+
+.goods {
+    display: inline-flex; 
+}
+
+.party {
+    display: inline-flex;
+}
+
+.main__card2 {
+    box-sizing: content-box;  
+    width: 475px;
+}
+
+.main__card2 .info__card {
+    padding: 10px 7px;
+
 }
