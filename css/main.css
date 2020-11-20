@@ -22,7 +22,7 @@ html {
 /** Typography */  /** Typography */  /** Typography */  /** Typography */
 
 body {
-    font-family: Arial;
+    font-family: "Raleway";
     color: var(--gray-dark);
     font-size: x-small;
     line-height: 1.4;
