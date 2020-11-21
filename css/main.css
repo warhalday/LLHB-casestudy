@@ -205,6 +205,15 @@ ul {
     background-color: var(--turquoise); 
 }
 
+/** QUOTE */  /** QUOTE */  /** QUOTE */  /** QUOTE */  /** QUOTE */
+
+.quote {
+    color: var(--red);
+    font-size: x-large;
+    font-weight: 700;
+}
+
+
 /** MAIN NAV */ /** MAIN NAV */  /** MAIN NAV */  /** MAIN NAV */
 
 .main__nav {
