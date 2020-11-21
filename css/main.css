@@ -1,4 +1,5 @@
 :root {
+    --font-san-serif: Raleway, sans-serif;
     --black: #000;
     --gray-dark: #242121;
     --gray-light: #ebebeb;
@@ -22,7 +23,7 @@ html {
 /** Typography */  /** Typography */  /** Typography */  /** Typography */
 
 body {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     color: var(--gray-dark);
     font-size: x-small;
     line-height: 1.4;
@@ -36,7 +37,7 @@ img {
 
 .button {
     font-size: x-small;
-    font-weight: 200;
+    font-weight: 600;
     color: var(--red);
     border-top-style: solid;
     border-top-color: var(--red);
@@ -70,8 +71,7 @@ img {
     font-size: 35px;
     line-height: .25;
     color: var(--turquoise);
-    text-shadow: 1.5px 1.5px var(--yellow);
-    
+    text-shadow: 1.5px 1.5px var(--yellow); 
 }
 
 .component__code h3 {
@@ -81,8 +81,7 @@ img {
     letter-spacing: .5px;
     text-align: center;
     color: var(--red);
-    text-shadow: 1.5px 1.5px var(--yellow);
-    
+    text-shadow: 1.5px 1.5px var(--yellow); 
 }
 
 .component__code h4 {
@@ -111,7 +110,9 @@ ul {
 .header__list {
     display: inline-flex;
     flex-direction: row;
-    padding: 10px 10px 10px 10px;   
+    padding: 10px 10px 10px 10px;
+    font-weight: 600;
+    letter-spacing: .5px;
 }
 
 .header__list  a {
@@ -132,10 +133,16 @@ ul {
 
 .header__location--card {
     font-size: x-small;
+    font-weight: 600;
+    letter-spacing: .5px;
     text-align: center;
     line-height: .5;
     background-color: #f3f0f0;
+}
 
+.header__location--card p {
+    font-size: x-small;
+    font-weight: 300;
 }
 
 .location__list {
@@ -204,8 +211,6 @@ ul {
     display: inline-flex;
     flex-direction: row;
     width: 525px;
-    
-    
 }
 
 .mixplate__imagecard {
@@ -237,6 +242,7 @@ ul {
 .info__card .title {
     color: var(--red);
     font-size: large;
+    font-weight: 800;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 0;
@@ -246,6 +252,7 @@ ul {
 .info__card .offering {
     color: var(--turquoise);
     font-size: small;
+    font-weight: 600;
     margin: 0;
     padding: 0px;
 }
@@ -279,6 +286,32 @@ ul {
 
 .main__card2 .info__card {
     padding: 10px 7px;
+}
+
+/** PROMO CARD */  /** PROMO CARD */  /** PROMO CARD */  /** PROMO CARD */
+
+.promo__card {
+    background-color: var(--red);
+}
+
+.promo__card h2 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.promo__card .button {
+    color: var(--yellow);
+    border-top-style: solid;
+    border-top-color: var(--yellow);
+    border-bottom-style: solid;
+    border-bottom-color: var(--yellow);
+}
+
+.promo__card p {
+    color: var(--white);
+    font-weight: 200;
+    letter-spacing: 1px;
 
 }
 
@@ -298,6 +331,8 @@ ul {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0;
+    font-weight: 600;
+    letter-spacing: .5px;
 }
 
 .footer__list a {
