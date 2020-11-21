@@ -311,25 +311,6 @@ ul {
     
 }
 
-/** MAIN CARD 2 */  /** MAIN CARD 2 */  /** MAIN CARD 2 */  /** MAIN CARD 2 */
-
-.goods {
-    display: inline-flex; 
-}
-
-.party {
-    display: inline-flex;
-}
-
-.main__card2 {
-    box-sizing: content-box;  
-    width: 475px;
-}
-
-.main__card2 .info__card {
-    padding: 10px 7px;
-}
-
 /** PROMO CARD */  /** PROMO CARD */  /** PROMO CARD */  /** PROMO CARD */
 
 .promo__card {
@@ -360,6 +341,27 @@ ul {
     letter-spacing: 1px;
 
 }
+
+/** MAIN CARD 2 */  /** MAIN CARD 2 */  /** MAIN CARD 2 */  /** MAIN CARD 2 */
+
+.goods {
+    display: inline-flex; 
+}
+
+.party {
+    display: inline-flex;
+}
+
+.main__card2 {
+    box-sizing: content-box;  
+    width: 475px;
+}
+
+.main__card2 .info__card {
+    padding: 10px 7px;
+}
+
+
 
 
 /** FOOTER */   /** FOOTER */   /** FOOTER */   /** FOOTER */   /** FOOTER */ 
