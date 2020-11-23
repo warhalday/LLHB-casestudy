@@ -12,7 +12,7 @@
 
 html {
     box-sizing: border-box;
-    padding-left: 200px;
+    padding-left: 220px;
   }
 
 *, 
@@ -22,7 +22,7 @@ html {
   }
 
 h1 {
-    font-size: xx-large;
+    font-size: 5.5rem;
     font-weight: 800;
     letter-spacing: 2px;
 }
@@ -38,7 +38,7 @@ h1 {
     left: 0;
     background-color: var(--turquoise);
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 348px;
 
 }
 
@@ -109,8 +109,17 @@ img {
     overflow-x: auto;
     }
 
+.component__name {
+    background-color: var(--gray-dark);
+    margin: 0;
+    padding: 10px;
+    color: var(--white);
+    letter-spacing: 2px;
+}
+
 .component__code {
   border: 1px solid #ccc;
+  margin-bottom: 40px;
     }
 
 .component__code h2 {
@@ -121,7 +130,7 @@ img {
 }
 
 .component__code h3 {
-    font-size: small;
+    font-size: medium;
     line-height: .25;
     font-weight: 600;
     letter-spacing: .5px;
@@ -356,6 +365,7 @@ ul {
 
 .promo__card {
     background-color: var(--red);
+    padding-bottom: 10px;
 }
 
 .promo__card h2 {
