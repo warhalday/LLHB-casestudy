@@ -123,14 +123,14 @@ img {
   margin-bottom: 40px;
     }
 
-.component__code h2 {
-    font-size: 35px;
+h2 {
+    font-size: 60px;
     line-height: .25;
     color: var(--turquoise);
     text-shadow: 1.5px 1.5px var(--yellow); 
 }
 
-.component__code h3 {
+h3 {
     font-size: medium;
     line-height: .25;
     font-weight: 600;
@@ -153,6 +153,7 @@ img {
 }
 
 .header {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -260,8 +261,12 @@ ul {
 
 .quote {
     color: var(--red);
-    font-size: x-large;
+    font-size: 400%;
     font-weight: 700;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 400px;
+    line-height: 1;
 }
 
 
@@ -273,7 +278,8 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 1;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
+    padding-top: 70px;
 }
 
 .main__nav--title {
@@ -367,12 +373,17 @@ ul {
 .promo__card {
     background-color: var(--red);
     padding-bottom: 10px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
 }
 
 .promo__card h2 {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 15px;
+    line-height: .50;
 }
 
 .promo__card .button {
@@ -395,6 +406,11 @@ ul {
 }
 
 /** MAIN CARD 2 */  /** MAIN CARD 2 */  /** MAIN CARD 2 */  /** MAIN CARD 2 */
+
+.main__card2 {
+    flex: row;
+    justify-content: space-around;
+}
 
 .goods {
     display: inline-flex; 
@@ -421,17 +437,21 @@ ul {
 .footer {
     display: inline-flex;
     flex-direction: column;
-    box-sizing: content-box;  
+    box-sizing: content-box;
+    justify-content: center;
+    width: 100%;
     background-color: var(--gray-dark);
+    padding-top: 20px;
 }
 
 .footer__list {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 0;
+    padding: 0 300px 20px 300px;
     font-weight: 600;
     letter-spacing: .5px;
+    
 }
 
 .footer__list a {
@@ -452,6 +472,8 @@ ul {
     border: solid 1px #000;
     border-radius: 5px;
     background-color: var(--white);
+    padding: 15px 10px 15px 10px;
+    margin: 0 300px 0 300px;
 }
 
 .logocopyright {
@@ -463,6 +485,7 @@ ul {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0;
+    font-size: large;
 }
 
 .socialmedia__list a {
@@ -474,6 +497,7 @@ ul {
 .legal {
     text-align: center;
     color: rgb(116, 115, 115);
+    padding: 0 350px 20px 350px;
 }
 
 .legal a {
@@ -481,12 +505,16 @@ ul {
     color: var(--white);
   }
 
-  /** .home-page template */  /** .home-page template */   /** .home-page template */   /** .home-page template */ 
+/** .home-page template */  /** .home-page template */   /** .home-page template */   /** .home-page template */ 
 
 .home-page  {
     box-sizing: border-box;
     padding-left: 0;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
   }
 
 .home-page__nav {
