@@ -39,6 +39,8 @@ h1 {
     background-color: var(--turquoise);
     overflow-x: hidden;
     padding-top: 348px;
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -68,7 +70,9 @@ body {
     color: var(--gray-dark);
     font-size: x-small;
     line-height: 1.4;
-
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
   }
 
 
@@ -88,9 +92,11 @@ img {
     border-bottom-color: var(--red);
     border-width: 2px;
     box-sizing: content-box;  
-    width: 110px;
-    height: 10px;
-    padding: 10px;  
+    padding: 10px 0 10px 0;
+    margin: 0 30px 0 30px;
+    border: 2;
+    
+    
 }
 
 .button a {
@@ -490,7 +496,7 @@ ul {
     align-items: center;
     justify-content: space-around;
     border: solid 1px #000;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: var(--white);
     padding: 15px 10px 15px 10px;
     margin: 0 300px 0 300px;
